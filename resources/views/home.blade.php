@@ -15,7 +15,7 @@
                     <img src="{{ asset('images') }}/{{ $barang->photo }}" class="card-img-top" alt="{{ $barang->photo }}">
                     <div class="card-body">
                         <h5 class="card-title">{{ $barang->nama_barang }}</h5>
-                        <a href="{{ route('review', $barang->id_barang) }}" button type="button" class="btn btn-outline-primary">Details & Review</button></a>
+                        <a href="{{ route('review', $barang->id_barang) }}" button type="button" class="btn btn-outline-primary">Stories & Review</button></a>
                     </div>
                 </div>
             </td>
